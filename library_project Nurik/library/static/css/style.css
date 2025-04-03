@@ -1,0 +1,162 @@
+/* General Body Styling */
+body {
+    background: linear-gradient(to bottom, #f3f7f7, #e0f2f1); /* Soft pastel gradient */
+    color: #333333; /* Darker text for better readability */
+    font-family: 'Poppins', sans-serif; /* Modern, clean font */
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styling */
+nav {
+    background-color: #ff8a80; /* Blush pink background for navbar */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 15px 0;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 12px 25px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #f48fb1; /* Slightly darker pink on hover */
+}
+
+/* Heading Styles */
+h1, h2, h3 {
+    color: #ff8a80; /* Blush pink for headings */
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* User Lists */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 8px;
+    background-color: #ffffff; /* White background for user list items */
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Styling */
+button {
+    background-color: #ff8a80; /* Blush pink button */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #f48fb1; /* Lighter pink on hover */
+}
+
+/* Back Link */
+a.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #ff8a80;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+}
+
+a.back-link:hover {
+    background-color: #f48fb1;
+}
+
+/* Padding for content to make space for navbar */
+body {
+    padding-top: 70px; /* Prevent content from hiding behind the navbar */
+}
+
+/* === FORM STYLING === */
+
+form {
+    width: 90%;
+    max-width: 420px;
+    margin: 40px auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(12px);
+}
+
+/* Input fields and selects */
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 14px 16px;
+    margin: 14px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #fafafa;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+select:focus {
+    border-color: #ff8a80; /* Blush pink border on focus */
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+    font-size: 16px;
+    color: #333333;
+}
+
+/* Submit button */
+button[type="submit"] {
+    width: 100%;
+    margin-top: 12px;
+    background-color: #ff8a80;
+    color: white;
+    font-size: 18px;
+    padding: 14px 0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #f48fb1; /* Lighter pink on hover */
+}
